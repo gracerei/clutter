@@ -11,7 +11,7 @@ This website showcases the services offered, contact info, and before/after tran
 ---
 
 ## 📂 File Structure
-- `index.html` – Main website page  
+- `clutterclutter.html` – Main website page  
 - `tailwindcss.css` – Tailwind CSS file for styling  
 - `README.md` – This file
 
