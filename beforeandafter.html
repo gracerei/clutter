@@ -20,18 +20,57 @@
     </div>
   </nav>
 
-  <section class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-2xl font-semibold mb-8 text-center text-blue-900">Before & After Transformations</h2>
-    <p class="text-center mb-12">Check out some of the spaces we’ve helped reclaim. Every space tells a story!</p>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">Before Photo 1</div>
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">After Photo 1</div>
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">Before Photo 2</div>
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">After Photo 2</div>
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">Before Photo 3</div>
-      <div class="bg-gray-200 h-48 rounded-2xl flex items-center justify-center">After Photo 3</div>
+<!-- Fancy Before & After Gallery -->
+<section class="max-w-5xl mx-auto px-6 py-16">
+  <h2 class="text-2xl font-semibold mb-8 text-center text-blue-900">Before & After Transformations</h2>
+  <p class="text-center mb-12">Check out some of the spaces we’ve helped reclaim. Every space tells a story!</p>
+
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Gallery Item 1 -->
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="before1.jpg" alt="Before 1" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">Before</span>
+      </div>
     </div>
-  </section>
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="after1.jpg" alt="After 1" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">After</span>
+      </div>
+    </div>
+
+    <!-- Gallery Item 2 -->
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="before2.jpg" alt="Before 2" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">Before</span>
+      </div>
+    </div>
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="after2.jpg" alt="After 2" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">After</span>
+      </div>
+    </div>
+
+    <!-- Gallery Item 3 -->
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="before3.jpg" alt="Before 3" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">Before</span>
+      </div>
+    </div>
+    <div class="relative group rounded-2xl overflow-hidden shadow-lg">
+      <img src="after3.jpg" alt="After 3" class="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+        <span class="text-white font-semibold text-lg">After</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="text-center mt-6"><a href="#" class="text-blue-900 hover:underline">See More Transformations</a></p>
+</section>
 
   <footer class="text-center py-6 text-sm text-gray-200 bg-blue-900">
     © 2026 Heartland Clutter Busters
