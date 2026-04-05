@@ -11,7 +11,7 @@ This website showcases the services offered, contact info, and before/after tran
 ---
 
 ## 📂 File Structure
-- `clutterclutter.html` – Main website page  
+- `index.html` – Main website page  
 - `tailwindcss.css` – Tailwind CSS file for styling  
 - `README.md` – This file
 
@@ -19,7 +19,7 @@ This website showcases the services offered, contact info, and before/after tran
 
 ## 🚀 How to View the Website
 1. Clone the repo or download it.  
-2. Open `clutterclutter.html` in your browser.  
+2. Open `index.html` in your browser.  
 3. The website will render with Tailwind styling.
 
 > ⚠️ Note: The README itself is **not the website**. It's just documentation.
