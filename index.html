@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Heartland Clutter Busters</title>
   <link rel="stylesheet" href="tailwindcss.css">
+  <script src="emailjs.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -77,14 +78,55 @@
     <p class="text-center mt-6"><a href="beforeandafter.html" class="text-blue-900 hover:underline">See More Before & After Transformations</a></p>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="bg-blue-900 text-white py-16">
-    <div class="max-w-3xl mx-auto px-6 text-center">
-      <h2 class="text-2xl font-semibold mb-4">Get a Free Quote</h2>
-      <p class="mb-6">Call or message us today for a fast, confidential estimate.</p>
-      <p class="mb-2">Phone: (555) 123-4567</p>
-      <p class="mb-6">Email: hello@heartlandclutterbusters.com</p>
-      <a href="#" class="bg-white text-blue-900 px-6 py-3 rounded-2xl">Message Us</a>
+  <!-- Contact Form -->
+  <section class="bg-white py-16">
+    <div class="max-w-3xl mx-auto px-6">
+      
+      <h2 class="text-2xl font-semibold mb-6 text-center text-blue-900">
+        Contact Us
+      </h2>
+  
+      <form id="contact-form" class="space-y-4">
+        
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Your Name" 
+          required
+          class="w-full p-3 border rounded-xl"
+        >
+  
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Your Email" 
+          required
+          class="w-full p-3 border rounded-xl"
+        >
+  
+        <input 
+          type="tel" 
+          name="phone" 
+          placeholder="Your Phone Number"
+          class="w-full p-3 border rounded-xl"
+        >
+  
+        <textarea 
+          name="message" 
+          placeholder="How can we help you?" 
+          required
+          rows="5"
+          class="w-full p-3 border rounded-xl"
+        ></textarea>
+  
+        <button 
+          type="submit" 
+          class="w-full bg-blue-900 text-white py-3 rounded-2xl">
+          Send Message
+        </button>
+  
+      </form>
+  
     </div>
   </section>
 
