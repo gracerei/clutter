@@ -1,21 +1,25 @@
-(function(){
-  emailjs.init("vQ-OlwoaBIJ1UmYQZ"); // replace this
-})();
+window.addEventListener("DOMContentLoaded", function() {
 
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
+  emailjs.init("vQ-OlwoaBIJ1UmYQZ");
 
-  emailjs.send("service_hwd804l", "template_889v16o", {
-    name: this.name.value,
-    email: this.email.value,
-    phone: this.phone.value,
-    message: this.message.value
-  })
-  .then(function() {
-    alert("Message sent successfully!");
-    document.getElementById("contact-form").reset();
-  }, function(error) {
-    alert("Something went wrong. Please try again.");
-    console.log(error);
+  const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.send("service_hwd804l", "template_889v16o", {
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      message: form.message.value
+    })
+    .then(function() {
+      alert("Message sent successfully!");
+      form.reset();
+    }, function(error) {
+      alert("Something went wrong. Please try again.");
+      console.log(error);
+    });
   });
+
 });
