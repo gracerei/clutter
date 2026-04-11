@@ -1,11 +1,11 @@
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY"); // replace this
+  emailjs.init("vQ-OlwoaBIJ1UmYQZ"); // replace this
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+  emailjs.send("service_hwd804l", "template_889v16o", {
     name: this.name.value,
     email: this.email.value,
     phone: this.phone.value,
